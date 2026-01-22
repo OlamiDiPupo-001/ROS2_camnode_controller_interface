@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: robot-control-interface
+Version: 0.1.0
+Summary: ROS2 interface for robot control using camera input and ArUco markers
+Home-page: UNKNOWN
+Maintainer: Your Name
+Maintainer-email: your.email@example.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

@@ -1,0 +1,39 @@
+FROM ros:humble
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    python3-pip \
+    git \
+    vim \
+    ros-humble-cv-bridge \
+    ros-humble-image-transport \
+    ros-humble-camera-calibration-parsers \
+    ros-humble-usb-cam \
+    ros-humble-ur-moveit \
+    ros-humble-gazebo-ros-pkgs \
+    ros-humble-turtlebot3-gazebo \
+    ros-humble-turtlebot3 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python packages
+RUN pip3 install opencv-python opencv-contrib-python numpy
+
+# Create workspace
+WORKDIR /ros_ws/src
+
+# Clone your package (adjust the URL)
+# Alternatively, copy from local context
+COPY . /ros_ws/src/robot_control_interface
+
+# Build the package
+WORKDIR /ros_ws
+RUN . /opt/ros/humble/setup.sh && \
+    colcon build --symlink-install
+
+# Source the workspace
+RUN echo "source /ros_ws/install/setup.bash" >> ~/.bashrc
+
+# Entrypoint
+COPY ./scripts/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]

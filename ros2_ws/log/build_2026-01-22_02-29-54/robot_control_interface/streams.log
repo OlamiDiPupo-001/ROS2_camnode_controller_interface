@@ -1,0 +1,33 @@
+[0.570s] Invoking command in '/home/olamidipupo/ros2_ws/build/robot_control_interface': PYTHONPATH=/home/olamidipupo/ros2_ws/build/robot_control_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olamidipupo/ros2_ws/install/robot_control_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/olamidipupo/ros2_ws/build/robot_control_interface/build --no-deps symlink_data
+[0.819s] running develop
+[0.971s] running egg_info
+[0.971s] creating robot_control_interface.egg-info
+[0.971s] writing robot_control_interface.egg-info/PKG-INFO
+[0.972s] writing dependency_links to robot_control_interface.egg-info/dependency_links.txt
+[0.972s] writing entry points to robot_control_interface.egg-info/entry_points.txt
+[0.972s] writing requirements to robot_control_interface.egg-info/requires.txt
+[0.972s] writing top-level names to robot_control_interface.egg-info/top_level.txt
+[0.972s] writing manifest file 'robot_control_interface.egg-info/SOURCES.txt'
+[0.974s] reading manifest file 'robot_control_interface.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'robot_control_interface.egg-info/SOURCES.txt'
+[0.976s] running build_ext
+[0.976s] Creating /home/olamidipupo/ros2_ws/install/robot_control_interface/lib/python3.10/site-packages/robot-control-interface.egg-link (link to .)
+[0.977s] Installing camera_control_node script to /home/olamidipupo/ros2_ws/install/robot_control_interface/lib/robot_control_interface
+[0.977s] 
+[0.978s] Installed /home/olamidipupo/ros2_ws/build/robot_control_interface
+[0.978s] running symlink_data
+[0.978s] creating /home/olamidipupo/ros2_ws/install/robot_control_interface/share/ament_index
+[0.978s] creating /home/olamidipupo/ros2_ws/install/robot_control_interface/share/ament_index/resource_index
+[0.978s] creating /home/olamidipupo/ros2_ws/install/robot_control_interface/share/ament_index/resource_index/packages
+[0.978s] symbolically linking /home/olamidipupo/ros2_ws/build/robot_control_interface/resource/robot_control_interface -> /home/olamidipupo/ros2_ws/install/robot_control_interface/share/ament_index/resource_index/packages
+[0.978s] symbolically linking /home/olamidipupo/ros2_ws/build/robot_control_interface/package.xml -> /home/olamidipupo/ros2_ws/install/robot_control_interface/share/robot_control_interface
+[0.978s] creating /home/olamidipupo/ros2_ws/install/robot_control_interface/share/robot_control_interface/launch
+[0.978s] symbolically linking /home/olamidipupo/ros2_ws/build/robot_control_interface/launch/ur5_aruco.launch.py -> /home/olamidipupo/ros2_ws/install/robot_control_interface/share/robot_control_interface/launch
+[0.978s] symbolically linking /home/olamidipupo/ros2_ws/build/robot_control_interface/launch/basic_turtlebot.launch.py -> /home/olamidipupo/ros2_ws/install/robot_control_interface/share/robot_control_interface/launch
+[0.978s] creating /home/olamidipupo/ros2_ws/install/robot_control_interface/share/robot_control_interface/config
+[0.978s] symbolically linking /home/olamidipupo/ros2_ws/build/robot_control_interface/config/generate_aruco.py -> /home/olamidipupo/ros2_ws/install/robot_control_interface/share/robot_control_interface/config
+[0.978s] creating /home/olamidipupo/ros2_ws/install/robot_control_interface/share/robot_control_interface/scripts
+[0.979s] symbolically linking /home/olamidipupo/ros2_ws/build/robot_control_interface/scripts/entrypoint.sh -> /home/olamidipupo/ros2_ws/install/robot_control_interface/share/robot_control_interface/scripts
+[0.979s] symbolically linking /home/olamidipupo/ros2_ws/build/robot_control_interface/scripts/setup_workspace.sh -> /home/olamidipupo/ros2_ws/install/robot_control_interface/share/robot_control_interface/scripts
+[0.979s] symbolically linking /home/olamidipupo/ros2_ws/build/robot_control_interface/scripts/install_dependencies.sh -> /home/olamidipupo/ros2_ws/install/robot_control_interface/share/robot_control_interface/scripts
+[1.009s] Invoked command in '/home/olamidipupo/ros2_ws/build/robot_control_interface' returned '0': PYTHONPATH=/home/olamidipupo/ros2_ws/build/robot_control_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olamidipupo/ros2_ws/install/robot_control_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/olamidipupo/ros2_ws/build/robot_control_interface/build --no-deps symlink_data
