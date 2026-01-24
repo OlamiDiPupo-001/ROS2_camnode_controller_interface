@@ -1,0 +1,3 @@
+[console_scripts]
+click_teleop_node = camera_click_teleop.click_teleop_node:main
+
