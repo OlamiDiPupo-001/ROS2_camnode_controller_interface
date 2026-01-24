@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/camera_click_teleop/camera_click_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_click_teleop/camera_click_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_click_teleop/camera_click_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/camera_click_teleop/camera_click_teleop.egg-info/requires.txt
+writing top-level names to ../../build/camera_click_teleop/camera_click_teleop.egg-info/top_level.txt
+reading manifest file '../../build/camera_click_teleop/camera_click_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_click_teleop/camera_click_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/olamidipupo/ros2_ws/install/camera_click_teleop/share/ament_index/resource_index/packages
+creating /home/olamidipupo/ros2_ws/install/camera_click_teleop/share/camera_click_teleop/launch
+copying launch/click_teleop_with_v4l2.launch.py -> /home/olamidipupo/ros2_ws/install/camera_click_teleop/share/camera_click_teleop/launch
+running install_egg_info
+Copying ../../build/camera_click_teleop/camera_click_teleop.egg-info to /home/olamidipupo/ros2_ws/install/camera_click_teleop/lib/python3.10/site-packages/camera_click_teleop-0.0.1-py3.10.egg-info
+running install_scripts
+Installing click_teleop_node script to /home/olamidipupo/ros2_ws/install/camera_click_teleop/lib/camera_click_teleop
+writing list of installed files to '/home/olamidipupo/ros2_ws/build/camera_click_teleop/install.log'

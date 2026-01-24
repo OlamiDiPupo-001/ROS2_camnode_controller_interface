@@ -1,0 +1,24 @@
+[0.660s] Invoking command in '/home/olamidipupo/ros2_ws/src/camera_click_teleop': PYTHONPATH=/home/olamidipupo/ros2_ws/build/camera_click_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olamidipupo/ros2_ws/install/camera_click_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_click_teleop build --build-base /home/olamidipupo/ros2_ws/build/camera_click_teleop/build install --record /home/olamidipupo/ros2_ws/build/camera_click_teleop/install.log --single-version-externally-managed install_data
+[0.904s] running egg_info
+[0.905s] writing ../../build/camera_click_teleop/camera_click_teleop.egg-info/PKG-INFO
+[0.905s] writing dependency_links to ../../build/camera_click_teleop/camera_click_teleop.egg-info/dependency_links.txt
+[0.906s] writing entry points to ../../build/camera_click_teleop/camera_click_teleop.egg-info/entry_points.txt
+[0.906s] writing requirements to ../../build/camera_click_teleop/camera_click_teleop.egg-info/requires.txt
+[0.906s] writing top-level names to ../../build/camera_click_teleop/camera_click_teleop.egg-info/top_level.txt
+[0.907s] reading manifest file '../../build/camera_click_teleop/camera_click_teleop.egg-info/SOURCES.txt'
+[0.908s] writing manifest file '../../build/camera_click_teleop/camera_click_teleop.egg-info/SOURCES.txt'
+[0.909s] running build
+[0.909s] running build_py
+[0.909s] copying camera_click_teleop/click_teleop_node.py -> /home/olamidipupo/ros2_ws/build/camera_click_teleop/build/lib/camera_click_teleop
+[0.909s] running install
+[0.909s] running install_lib
+[0.910s] copying /home/olamidipupo/ros2_ws/build/camera_click_teleop/build/lib/camera_click_teleop/click_teleop_node.py -> /home/olamidipupo/ros2_ws/install/camera_click_teleop/lib/python3.10/site-packages/camera_click_teleop
+[0.910s] byte-compiling /home/olamidipupo/ros2_ws/install/camera_click_teleop/lib/python3.10/site-packages/camera_click_teleop/click_teleop_node.py to click_teleop_node.cpython-310.pyc
+[0.911s] running install_data
+[0.911s] running install_egg_info
+[0.913s] removing '/home/olamidipupo/ros2_ws/install/camera_click_teleop/lib/python3.10/site-packages/camera_click_teleop-0.0.1-py3.10.egg-info' (and everything under it)
+[0.913s] Copying ../../build/camera_click_teleop/camera_click_teleop.egg-info to /home/olamidipupo/ros2_ws/install/camera_click_teleop/lib/python3.10/site-packages/camera_click_teleop-0.0.1-py3.10.egg-info
+[0.914s] running install_scripts
+[0.935s] Installing click_teleop_node script to /home/olamidipupo/ros2_ws/install/camera_click_teleop/lib/camera_click_teleop
+[0.935s] writing list of installed files to '/home/olamidipupo/ros2_ws/build/camera_click_teleop/install.log'
+[0.965s] Invoked command in '/home/olamidipupo/ros2_ws/src/camera_click_teleop' returned '0': PYTHONPATH=/home/olamidipupo/ros2_ws/build/camera_click_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/olamidipupo/ros2_ws/install/camera_click_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_click_teleop build --build-base /home/olamidipupo/ros2_ws/build/camera_click_teleop/build install --record /home/olamidipupo/ros2_ws/build/camera_click_teleop/install.log --single-version-externally-managed install_data
