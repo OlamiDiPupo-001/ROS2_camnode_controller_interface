@@ -34,22 +34,22 @@ The project supports:
 ## Repository Structure
 ```
 ROS2_camnode_controller_interface/
-└── ros2_ws/
-├── Dockerfile
-├── docker-compose.yml
 ├── README.md
-└── src/
-    └── camera_click_teleop/
-        ├── camera_click_teleop/
-        │   ├── __init__.py
-        │   ├── click_teleop_node.py
-        │   └── aruco_teleop_node.py
-        ├── launch/
-        │   ├── click_teleop.launch.py
-        │   └── aruco_teleop.launch.py
-        ├── package.xml
-        ├── setup.py
-        └── setup.cfg
+└── ros2_ws/
+    ├── Dockerfile
+    ├── docker-compose.yml
+    └── src/
+         └── camera_click_teleop/
+             ├── camera_click_teleop/
+             │   ├── __init__.py
+             │   ├── click_teleop_node.py
+             │   └── aruco_teleop_node.py
+             ├── launch/
+             │   ├── click_teleop.launch.py
+             │   └── aruco_teleop.launch.py
+             ├── package.xml
+             ├── setup.py
+             └── setup.cfg
 ```
 
 ---
