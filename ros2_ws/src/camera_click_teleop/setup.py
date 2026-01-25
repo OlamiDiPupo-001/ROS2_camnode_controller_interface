@@ -24,6 +24,8 @@ setup(
     entry_points={
         'console_scripts': [
             'click_teleop_node = camera_click_teleop.click_teleop_node:main',
+            'aruco_teleop_node = camera_click_teleop.aruco_teleop_node:main',
+            'turtle_rviz = camera_click_teleop.turtle_rviz_node:main',
         ],
     },
 )
