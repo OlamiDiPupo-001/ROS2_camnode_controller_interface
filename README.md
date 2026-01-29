@@ -35,7 +35,7 @@ The project supports:
 ```
 ROS2_camnode_controller_interface/
 ├── README.md
-├── Images/
+├── media/
 └── ros2_ws/
     ├── Dockerfile
     ├── docker-compose.yml
@@ -199,12 +199,20 @@ ros2 node list
 
 ---
 
-## Demo
-A demonstration video is included in the repository showing:  
-- Camera feed  
-- ArUco detection  
-- Robot motion  
-- RViz visualization  
+## Demo 
+### Camera feed and robot motion
+<img src="media/screenshot_1.png" width="400">
+This screenshot shows the OpenCV camera interace with robot moving forward and backward upon clicking above and below the center of camera interface.
+
+### ArUco detection
+<img src="media/screenshot_2.png" width="400">
+<img src="media/screenshot_3.png" width="400">
+This screenshot shows the OpenCV camera interace with robot moving forward and backward upon detecting ArUco code above and below the center line of camera interface.
+
+A demonstration video is included in the repository showing: 
+---
+media/screeencast.webm
+---
 
 ---
 
