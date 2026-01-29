@@ -35,6 +35,7 @@ The project supports:
 ```
 ROS2_camnode_controller_interface/
 ├── README.md
+├── Images/
 └── ros2_ws/
     ├── Dockerfile
     ├── docker-compose.yml
