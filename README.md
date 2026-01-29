@@ -201,17 +201,17 @@ ros2 node list
 
 ## Demo 
 ### Camera feed and robot motion
-<img src="images/Screenshot_1.png" width="400">
+<img src="Images/Screenshot_1.png" width="400">
 This screenshot shows the OpenCV camera interace with robot moving forward and backward upon clicking above and below the center of camera interface.
 
 ### ArUco detection
-<img src="images/Screenshot_2.png" width="400">
-<img src="images/Screenshot_3.png" width="400">
+<img src="Images/Screenshot_2.png" width="400">
+<img src="Images/Screenshot_3.png" width="400">
 This screenshot shows the OpenCV camera interace with robot moving forward and backward upon detecting ArUco code above and below the center line of camera interface.
 
 A demonstration video is included in the repository showing: 
 ---
-media/screeencast.webm
+images/screeencast.webm
 ---
 
 ---
